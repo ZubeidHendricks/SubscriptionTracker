@@ -17,15 +17,15 @@ targets:
     platform: iOS
     sources:
       - Sources
+      - Resources
     dependencies:
       - package: AppFactoryKit
         product: AppFactoryKit
-      - package: AppFactoryKit
-        product: AppFactoryKitRevenueCat
     info:
       path: Sources/Info.plist
       properties:
-        CFBundleDisplayName: "SubscriptionTracker"
+        CFBundleDisplayName: "Subscription Tracker"
+        ITSAppUsesNonExemptEncryption: false
         UILaunchScreen: {}
         UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
     settings:
@@ -38,6 +38,7 @@ targets:
         SWIFT_VERSION: "5.0"
         GENERATE_INFOPLIST_FILE: NO
         CODE_SIGN_STYLE: Automatic
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
 
   SubscriptionTrackerTests:
     type: bundle.unit-test
