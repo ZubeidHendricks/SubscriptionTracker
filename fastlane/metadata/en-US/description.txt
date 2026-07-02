@@ -1,0 +1,21 @@
+How much are you really paying every month? Subscription Tracker adds it all up — and warns you before renewals hit.
+
+KNOW WHAT YOU PAY
+• Log any subscription: streaming, apps, gym, software
+• Weekly, monthly and yearly cycles normalized into one true monthly figure
+• Yearly total that will probably shock you
+
+NEVER GET SURPRISED
+• A reminder the day before each renewal
+• Cancel in time, every time
+• Swipe to remove cancelled services
+
+Your data stays on your device — no accounts, no bank linking, no tracking.
+SUBSCRIPTIONS
+Pro is an auto-renewing subscription (yearly or weekly). Payment is charged to your Apple ID at confirmation; it renews unless cancelled at least 24 hours before the period ends. Manage or cancel anytime in your Apple ID settings.
+
+PRIVACY FIRST
+Everything runs on your device — nothing is uploaded.
+
+Terms: https://zubeidhendricks.github.io/SubscriptionTracker/terms.html
+Privacy: https://zubeidhendricks.github.io/SubscriptionTracker/privacy.html
