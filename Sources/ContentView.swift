@@ -19,6 +19,19 @@ struct ContentView: View {
                     }
                     .listRowInsets(EdgeInsets())
                     .listRowBackground(Color.clear)
+
+                    // Competence feedback per ../PLAYBOOK.md: lifetime money
+                    // saved by cancelling — real accomplishment, no badges.
+                    if store.savedMonthly > 0 {
+                        Label("Saved \(store.savedMonthly.formatted(.currency(code: "USD")))/mo by cancelling",
+                              systemImage: "scissors")
+                            .font(.subheadline.weight(.semibold))
+                            .foregroundStyle(.green)
+                            .frame(maxWidth: .infinity, minHeight: 40)
+                            .background(RoundedRectangle(cornerRadius: 14).fill(.green.opacity(0.12)))
+                            .listRowInsets(EdgeInsets())
+                            .listRowBackground(Color.clear)
+                    }
                 }
                 Section("Subscriptions") {
                     ForEach(store.sorted) { s in

@@ -30,6 +30,13 @@ purchases). To go live:
 
 Bundle id: `com.zubeid.subscriptiontracker`
 
+## Engagement (see ../PLAYBOOK.md)
+
+Mechanic: **competence feedback** only (max-2 rule). Deleting a subscription
+accumulates its monthly cost into a persisted lifetime "Saved $X/mo by
+cancelling" figure (guarded against double-counting) shown above the spend
+totals. Real money saved, never app opens. No points, badges, or leaderboards.
+
 ## Ship to TestFlight
 
 This app ships with a Fastlane lane + GitHub Actions workflow. One-time account
